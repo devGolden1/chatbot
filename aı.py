@@ -13,11 +13,11 @@ WELLCOME TO
 print(art)
 
 def veritabanini_yukle():
-    with open('C:\\Users\\osmdn\\OneDrive\\Masaüstü\\pyaı\\veritabani.json', 'r') as dosya:
+    with open('C:\\Users\\golden\\OneDrive\\Masaüstü\\pyaı\\veritabani.json', 'r') as dosya:
         return json.load(dosya)
 
 def veritabanina_yaz(veriler):
-    with open('C:\\Users\\osmdn\\OneDrive\\Masaüstü\\pyaı\\veritabani.json', 'w') as dosya:
+    with open('C:\\Users\\golden\\OneDrive\\Masaüstü\\pyaı\\veritabani.json', 'w') as dosya:
         json.dump(veriler, dosya, indent=2)
 
 def yakin_sonuc_bul(soru, sorular):
